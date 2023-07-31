@@ -1,0 +1,51 @@
+@font-face {
+    font-family: TT Berlinerins Trial Grotesk;
+    src: url(./Fonts/TT\ Berlinerins\ Trial\ Grotesk.otf);
+}
+
+.Home-page{
+    height: 90vh;
+    background-image: url("../images/Home-Bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    justify-content:center;
+    background-position: 100%;
+    flex-direction: column;
+    padding-top: 5%;
+    margin-top: 0;
+   position: relative;
+   overflow: hidden;
+       
+}
+.home-para{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    animation-name: zoomOut;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+.home-head{
+    font-size: 3.8rem;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1.5px; 
+    font-weight: 700;
+    margin-bottom: 0;
+    animation-name: zoomOut;
+    animation-duration: 2s;
+}
+@keyframes zoomOut{
+    0%{transform: scale(0.2);}
+    100%{transform: scale(1);}
+}
+.jumbotron{
+    background-color: beige;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

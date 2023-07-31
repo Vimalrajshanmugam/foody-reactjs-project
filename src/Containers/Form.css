@@ -1,0 +1,81 @@
+.Form-page{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.Form-container{
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 2px solid yellow;
+
+}
+.Form-signUp{
+    padding: 0 10px;
+    width: 400px;
+    
+    
+}
+.Form-image{
+    padding: 0 10px;
+    
+    
+}
+.Form-signUp > h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 30px auto;
+}
+.form-group{
+    margin-bottom: 20px;
+    
+}
+#name,#mail,.password{
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+#checkbox{
+    height: 15px;
+    width: 15px;
+    padding: 0;
+    margin-right: 10px;
+}
+#submit btn{
+    padding: 15px;
+}
+.form-group > button {
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transform: translateY(0);
+    
+}
+.form-group > button:hover{
+    cursor: pointer;
+    color: blue;
+    border: 1px solid blue;
+    background-color: white;
+}
+.form-group > button:active{
+    transform: translateY(3px);
+}
