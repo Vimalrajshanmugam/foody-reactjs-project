@@ -1,0 +1,91 @@
+.section2-header{
+    font-family:Space Grotesk,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    word-spacing: 1.3px;
+    color:red;
+    font-size: 3rem;
+}
+.section2-para{
+    font-family: space Grotesk,sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 1.2px;
+    word-spacing: 1.3px;
+}
+.section2-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px 10px;
+    background-color: beige;
+    
+}
+.section2-card{
+    width: 300px;
+    margin: 10px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.section2-card:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid black;
+}
+.section2-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section2-card-para h2{
+    font-size: 1.5rem;
+    font-family: space Grotesk,sans-serif;
+    font-weight: 600;
+}
+.section2-card-para p{
+    text-align: center;
+    
+    font-family: space Grotesk,sans-serif;
+}
+.section2-card-image{
+    height: 20%;
+    width: 50%;
+    padding-bottom: 40px;
+    overflow: hidden;
+
+}
+#foodqualityIcon{
+    animation-name: lifting;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes lifting{
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(20px);}
+    0%{transform: translateY(0px);}
+}
+#fooddeliveryIcon{
+    animation-name: delivery;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes delivery{
+    0%{transform: translateX(-200px);}
+    25%{transform: translateX(0px);}
+    50%{transform: translateX(0px);}
+    75%{transform: translateX(0px);}
+    100%{transform: translateX(200px);}
+}
+#foodlistIcon{
+    animation-name: listing;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes listing{
+    0%{transform: translateX(200px);}
+    25%{transform: translateX(0px);}
+    50%{transform: translateX(0px);}
+    75%{transform: translateX(0px);}
+    100%{transform: translateX(-200px);}
+}

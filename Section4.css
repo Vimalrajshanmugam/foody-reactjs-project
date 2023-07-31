@@ -1,0 +1,58 @@
+.section4-header h1 {
+    font-family: Space Grotesk, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    word-spacing: 1.3px;
+    color: red;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.section4-header p {
+    font-family: space Grotesk, sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 1.2px;
+    word-spacing: 1.3px;
+}
+
+.section4-body {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.section4-card {
+    width: 350px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.section4-card h2 {
+    font-size: 1.5rem;
+    font-family: space Grotesk, sans-serif;
+    font-weight: 600;
+}
+
+.section4-card h5 {
+    font-family: space Grotesk, sans-serif;
+    font-weight: 600;
+}
+
+.section4-card p {
+    font-family: space Grotesk, sans-serif;
+    word-spacing: 1.3px;
+    letter-spacing: 1.2px;
+}
+
+.section4-card:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+}

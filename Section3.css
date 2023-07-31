@@ -1,0 +1,110 @@
+.section3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 10px;
+
+}
+
+.section3-left {
+    height: 330px;
+    text-align: left;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.section3-left h1 {
+    font-family: Space Grotesk, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    word-spacing: 1.3px;
+}
+
+.section3-left > p {
+    font-family: space Grotesk, sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 1.2px;
+    word-spacing: 1.3px;
+}
+
+.section3-left button {
+    width: 120px;
+    margin: 2px auto 2px 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 18px;
+    background-color: rgb(196, 52, 16);
+    color: white;
+    font-weight: 600;
+
+}
+
+.section3-left button:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.section3-mobileapp-header h1 {
+    font-family: Space Grotesk, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    word-spacing: 1.3px;
+    color: red;
+    font-size: 3rem;
+}
+
+.section3-mobileapp-header p {
+    font-family: space Grotesk, sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 1.2px;
+    word-spacing: 1.3px;
+}
+.section3-mobileapp-body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.section3-mobileapp-left{
+    margin-left: 10px;
+    height: 330px;
+    text-align: left;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.section3-mobileapp-left-appicon{
+    display: flex;
+    height: 80px;
+    justify-content: space-evenly;
+    width: 400px;
+
+}
+
+#playstoreicon{
+    height: 60px;
+    margin: 10px 0 0 0;
+    padding: 0;
+    width: 150px; 
+}
+#googleplayIcon{
+    height: 80px;
+    margin: 0;
+    padding: 0; 
+    width: 150px; 
+}
+.section3-mobileapp-left-para p{
+    font-family: space Grotesk, sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 1.2px;
+    word-spacing: 1.3px;
+}

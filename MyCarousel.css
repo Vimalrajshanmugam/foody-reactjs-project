@@ -1,0 +1,33 @@
+
+.Carasoel{
+    width: 90%;
+    margin: 50px auto;
+    height: 250px;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+.MyCaraosel {
+    margin: 20px auto;
+    width: 90%;
+    padding-top: 20px;
+}
+.Card {
+    padding: 10px;
+}
+.Card-image {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+}
+.Card-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+
+.Card-image >img:hover {
+    transform: scale(1);
+}
